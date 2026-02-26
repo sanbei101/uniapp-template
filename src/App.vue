@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onLaunch, onShow, onHide } from "@dcloudio/uni-app";
+import { onLaunch, onShow, onHide, } from "@dcloudio/uni-app";
 onLaunch(() => {
   console.log("App Launch");
 });
@@ -10,7 +10,3 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
-<template>
-  <text>hello world</text>
-</template>
-<style></style>
